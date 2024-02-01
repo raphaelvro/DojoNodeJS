@@ -1,6 +1,6 @@
 
 const start = () => {
-    console.log('hello world')
+    console.log('maroto')
 }
 
 start()
