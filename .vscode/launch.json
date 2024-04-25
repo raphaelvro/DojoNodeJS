@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Crazy App",
-            "program": "${workspaceRoot}/src/index.js",
+            "program": "${workspaceRoot}/src/FileUtils/Teste.js",
             "outFiles": [ "${workspaceRoot}/.compiled/**/*.js" ]
         },
         {
@@ -16,7 +16,6 @@
             "args": ["--runInBand"],
             "console": "integratedTerminal",
             "internalConsoleOptions": "neverOpen",
-            "disableOptimisticBPs": true,
             "windows": {
                 "program": "${workspaceFolder}/node_modules/jest-cli/bin/jest",
             }
