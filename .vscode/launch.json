@@ -5,7 +5,7 @@
             "type": "node",
             "request": "launch",
             "name": "Crazy App",
-            "program": "${workspaceRoot}/src/FileUtils/Teste.js",
+            "program": "${workspaceRoot}/src/db/start.js",
             "outFiles": [ "${workspaceRoot}/.compiled/**/*.js" ]
         },
         {
