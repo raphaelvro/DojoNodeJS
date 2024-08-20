@@ -5,7 +5,7 @@ jest.mock('./terceiro.js')
     
 
 test('teste sucesso', async () => {
-    level3.mockImplementation(() => 'batata')
+    level3.mockImplementation(() => 'ABBB444')
     const resultado1 = start()
 
     expect(resultado1).toBe('ABBB444')
