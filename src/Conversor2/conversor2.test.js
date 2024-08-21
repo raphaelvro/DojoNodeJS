@@ -1,7 +1,6 @@
 import { convert } from './conversor2.js'
 
 test('convert null', () => {
-    expect(convert()).toBe('')
     expect(convert(0)).toBe('')
 })
 

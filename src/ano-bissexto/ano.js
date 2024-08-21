@@ -21,14 +21,14 @@ Não são bissextos por exemplo:
 2011
 Escreva uma função que determina se um determinado ano informado é bissexto ou não.
 */
-
+/*
 const verificarAno = (ano) => {
     if (ano % 4 == 0 && !(ano % 100 == 0) || ano % 400 == 0) {
         return true
     }
 
     return false
-}
+}*/
 
 const verificarAno2 = (ano) => {
     const isDivisivelPor4 = ano % 4 == 0
@@ -39,4 +39,4 @@ const verificarAno2 = (ano) => {
          
  }
 
- export {verificarAno, verificarAno2}
+ export {verificarAno2}
